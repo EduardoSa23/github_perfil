@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 import Perfil from "./components/Perfil"
-import ReposList from "./components/reposList"
+import ReposList from "./components/ReposList"
 
 function App() {
   const [formularioEstaVisivel, setFormularioEstaVisivel] = useState(true)
