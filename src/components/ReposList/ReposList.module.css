@@ -15,6 +15,10 @@
     margin-right: 8px;
 }
 
+h1 {
+    color: var(--corSecundaria);
+}
+
 .itemLink {
     display: block;
     background-color: var(--corPrincipal);
