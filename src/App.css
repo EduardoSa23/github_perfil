@@ -12,6 +12,26 @@
   transition: filter 300ms;
 }
 
+.centralizar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+    display: block;
+    background-color: var(--corPrincipal);
+    color: var(--corSecundaria);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+h3 {
+  color: var(--corSecundaria);
+}
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
